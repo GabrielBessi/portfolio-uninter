@@ -1,0 +1,287 @@
+body {
+  display: flex;
+  margin: 0 auto;
+
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  color: black;
+  font-family: 800;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  box-sizing: border-box;
+
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/*Estilo da página index.html*/
+.nav-link {
+  display: inline-block;
+  background-color: #007bff;
+
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-size: 16px;
+
+  transition: background-color 0.3s;
+}
+
+
+.nav-link:hover {
+  background-color: #0056b3;
+
+}
+
+.style-header {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+  height: 120px;
+  border-top:50px;
+  background-color: rgb(157, 157, 157);
+}
+
+.style-header img {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 50px;
+
+  background-color: rgb(157, 157, 157);
+  justify-content: center;
+  align-items: center;
+
+  gap: 4.11vw;
+}
+
+/*Estilo da página sobre-mim.html*/
+.content-about-me {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  align-items: center;
+}
+
+.content-about-me-information {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+}
+
+/*Estilo da página minha-formacao.html*/
+.content-academic-education {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.border-bottom-custom {
+  width: 80%;
+  margin-top: 50px;
+  border-bottom: 2px solid rgb(157, 157, 157);
+}
+
+#card {
+  display: flex;
+  justify-content: space-around;
+
+  width: 90%;
+}
+
+.card-academic-education {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+
+  width: 200px;
+  height: 300px;
+
+  border-radius: 10px;
+  border: 2px solid rgb(157, 157, 157);
+
+  background-color: white;
+}
+
+.card-academic-education:hover {
+  transform: scale(1.1);
+  transition: 500ms linear;
+}
+
+.card-academic-education img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px ;
+}
+
+.others-certificate {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.others-certificate-front {
+  display: flex;
+
+  width: 80%;
+  justify-content: space-between;
+}
+
+.images-certificate {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 50%;
+  border: 5px solid rgb(157, 157, 157);;
+}
+
+.others-certificate-front a {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.others-certificate-front a:hover {
+  transform: scale(1.1);
+  transition: 500ms linear;
+}
+
+.certificates-backend {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+
+}
+
+.certificates-backend a {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.certificates-backend a:hover {
+  transform: scale(1.1);
+  transition: 500ms linear;
+}
+
+/**/
+.my-projects {
+  display: flex;
+
+  flex-direction: column;
+
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Estilização da página meus-contatos.html*/
+
+.form-contacts {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+/*Estilização do footer*/
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: auto;
+}
